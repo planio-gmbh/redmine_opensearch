@@ -5,6 +5,7 @@ Redmine::Plugin.register :redmine_opensearch do
   author_url 'http://meine-er.de'
   description 'Adds opensearch capabilities to Redmine'
   version '0.1'
+  hidden(true) if respond_to?(:hidden) # hide plugin in Planio
 
   requires_redmine :version_or_higher => '0.8'
 
