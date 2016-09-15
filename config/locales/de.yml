@@ -1,3 +1,4 @@
+---
 de:
-  label_data_uri: "Inline (data-URI)"
-  label_favicon_uri_type: "URL-Type des Favicons"
+  label_data_uri: Inline (data-URI)
+  label_favicon_uri_type: URL-Type des Favicons

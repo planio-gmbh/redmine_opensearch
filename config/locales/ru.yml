@@ -1,3 +1,4 @@
+---
 ru:
-  label_data_uri: "Внедрённый (data-URI)"
-  label_favicon_uri_type: "Формат URL значка поиска"
+  label_data_uri: Внедрённый (data-URI)
+  label_favicon_uri_type: Формат URL значка поиска
