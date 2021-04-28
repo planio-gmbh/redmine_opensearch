@@ -1,12 +1,12 @@
 class OpensearchController < ApplicationController
   unloadable
 
-  before_filter :find_optional_project
+  before_action :find_optional_project
 
   # only perform access checks if we have a @project
   # global opensearch plugin is safe
-  skip_before_filter :check_if_login_required
-  before_filter :check_project_privacy, :if => '@project.present?'
+  skip_before_action :check_if_login_required
+  before_action :check_project_privacy, :if => '@project.present?'
 
   helper :opensearch_favicon
 
